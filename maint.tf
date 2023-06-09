@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 module "webserverModule" {
-  source = "../webserverModule "
+  source = "github.com/obabaldbiyat/Child_Custom-Nginx-server-Terraform_Azure_GitSourc"
   Resource_Group_name = "obab_Staging_"
   location = "francecentral"
   instance_size = "Standard_B2s"
